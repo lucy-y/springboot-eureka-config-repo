@@ -1,0 +1,3 @@
+default:
+  owner: cloud-config-server's git folder
+  content: 서비스별 설정파일 정의
