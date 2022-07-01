@@ -1,0 +1,16 @@
+server:
+  port: 54412
+
+spring:
+  application:
+    name: push-service
+
+eureka:
+  instance:
+    instance-id: push-microservice-instance
+
+client:
+  register-with-eureka: true
+  fetch-registry: true
+  service-url:
+    defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
